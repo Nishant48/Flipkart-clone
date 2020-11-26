@@ -1,0 +1,207 @@
+.header{
+    display: flex;
+    background-color: #047bd5;
+    top: 0;
+    position: sticky;
+    max-height: 60px;
+    z-index: 2;
+}
+
+.header_div1{
+    display: flex;
+    flex: 0.12;
+}
+
+.header_div2{
+    display: flex;
+    flex: 0.78;
+}
+
+.header_div3{
+    display: flex;
+    flex: 0.1;
+}
+
+.header_logo{
+    max-height: 19px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.header_logospan{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header_logobelow{
+    display: flex;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.header_logobelow > i{
+    color: white;
+    font-weight: 400;
+    margin-right: 5px;
+    font-size: 11px;
+}
+
+.header_logoplus{
+    color: #f8e831;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.header_search{
+    display: flex;
+    flex: 1;
+    margin-left: 20px;
+    align-items: center;
+    
+}
+
+.header_search > input{
+    display: flex;
+    flex: 1;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border: none;
+    font-size: 13px;
+    
+}
+
+.MuiSvgIcon-root {
+    color: #047bd5;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+    margin-left: -12px;
+}
+
+.header_links{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header_button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #047bd5;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.header_login{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    color:#047bd5;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+}
+
+.header_shoppingCart{
+    background-color: #047bd5;
+    color: white;
+}
+
+.toflex{
+    display: flex;
+    align-items: center;
+}
+
+.header_login:hover{
+    cursor: pointer;
+}
+
+.header_button:hover{
+    cursor: pointer;
+}
+
+.header_dropdownLogin:hover .header_loginDropdown{
+    cursor: pointer;
+    display: block;
+}
+
+.header_dropdownMore:hover .header_moreDropdown{
+    cursor: pointer;
+    display: block;
+}
+
+
+.header_loginDropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid lightgrey;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.header_moreDropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid lightgrey;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.header_loginDropdown_header{
+    display: flex;
+    padding: 15px;
+    border-bottom: 0.5px solid lightgrey;
+}
+
+.header_loginDropdown_header > a, .header_loginDropdown_row > a{
+    text-decoration: none !important;
+}
+
+.new_customer{
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 50px;
+    color: black;
+}
+
+.signin{
+    font-size: 14px;
+    font-weight: 600;
+    color: #047bd5;
+    justify-content: flex-end;
+}
+
+.header_loginDropdown_row{
+    display: flex;
+    padding: 10px;
+    border-bottom: 0.5px solid lightgrey;
+    align-items: center;
+}
+
+.header_loginDropdown_row > a{
+    color: black;
+    font-size: 14px;
+}
+
+.svg{
+    margin-left: 0px;
+}
+

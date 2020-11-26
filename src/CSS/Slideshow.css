@@ -1,0 +1,33 @@
+.slideshow{
+    position: relative;
+    z-index: inherit;
+}
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+
+.slideshow_img1{
+    background-image: url("../ASSETS/p1.jpg");
+    width: 100%;
+}
+.slideshow_img2{
+  background-image: url("../ASSETS/p2.jpg");
+  width: 100%;
+}
+.slideshow_img3{
+  background-image: url("../ASSETS/p3.jpg");
+  width: 100%;
+}
+.slideshow_img4{
+  background-image: url("../ASSETS/p4.jpg");
+  width: 100%;
+}
+.slideshow_img5{
+  background-image: url("../ASSETS/p5.jpg");
+  width: 100%;
+}
